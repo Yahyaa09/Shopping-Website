@@ -23,7 +23,7 @@ const Slider = ({ images }) => {
   };
 
   return (
-    <div className='relative w-screen overflow-hidden'>
+    <div className='relative w-screen overflow-x--hidden mx-auto'>
       {/* Dots indicating current image */}
       <div className='absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10'>
         {images.map((_, idx) => (
@@ -51,7 +51,7 @@ const Slider = ({ images }) => {
         <FaChevronLeft />
       </button>
       <button 
-        className='absolute right-2 top-1/2 transform -translate-y-1/2 text-white bg-transparent flex justify-center items-center hover:bg-slate-950 hover:bg-opacity-50 text-2xl p-2 z-10 h-full w-[10vw] opacity-0 hover:opacity-100 transition-opacity duration-300'
+        className='absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-transparent flex justify-center items-center hover:bg-slate-950 hover:bg-opacity-50 text-2xl p-2 z-10 h-full w-[10vw] opacity-0 hover:opacity-100 transition-opacity duration-300'
         onClick={handleNext}
       >
         <FaChevronRight />
