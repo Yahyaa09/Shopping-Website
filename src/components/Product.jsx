@@ -26,7 +26,7 @@ const Product = ({ post }) => {
 
   return (
     <div
-      className="flex flex-col items-center justify-between hover:scale-110 hover:shadow-[0_10px_50px_rgb(0,0,0,0.3)] transition duration-300 ease-in shadow-[0_1px_5px_rgb(0,0,0,0.2)] gap-3 p-4 mt-10 ml-5 rounded-xl max-w-[350px] bg-white hover:bg-white cursor-pointer"
+      className="flex flex-col items-center justify-between hover:scale-110 hover:shadow-[0_10px_50px_rgb(0,0,0,0.3)] transition duration-300 ease-in shadow-[0_1px_5px_rgb(0,0,0,0.2)] gap-3 p-4 mt-10 ml-5 rounded-xl max-w-[350px] bg-white hover:bg-white cursor-pointer dark:bg-white dark:hover:bg-white"
       onClick={navigateToItemPage}
     >
       <p className="text-gray-700 font-semibold text-lg truncate w-40 mt-1 text-left">
