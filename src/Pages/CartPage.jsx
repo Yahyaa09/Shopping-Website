@@ -23,7 +23,7 @@ const CartPage = () => {
   }, [cart]);
 
   return (
-    <div>
+    <div className="bg-white">
     {
       loading ? (<Spinner/>) :
       (<div>

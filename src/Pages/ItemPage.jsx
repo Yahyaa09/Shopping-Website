@@ -36,7 +36,7 @@ const ItemPage = () => {
   }
 
   return (
-    <div>
+    <div className='bg-white'>
       {loading ? (
         <Spinner /> 
       ) : (
