@@ -36,7 +36,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-white text-black">
       {loading ? (
         <Spinner />
       ) : posts.length > 0 ? (
